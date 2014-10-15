@@ -1,0 +1,98 @@
+/*
+    Document   : weather_app/Public/style．css
+    Created on : 2014-10-15 12:55 PM
+    Author     : melliep
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+body {
+background-image: url('/images/map.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: #FFFFFF;
+padding-top: 220px;
+}
+.sunny {
+background-image: url('/images/sunny.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #FBED73;
+color: #EACD12;
+}
+.cloudy {
+background-image: url('/images/cloudy.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #9B9391;
+color: #817977;
+}
+.rainy {
+background-image: url('/images/rainy.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #5E6C89;
+color: #42516E;
+}
+.snowy {
+background-image: url('/images/snowy.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #CFD9DA;
+color: #9FB4B5;
+}
+.content {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+font-family: helvetica;
+}
+.retry-button {
+border: 1px;
+}
+input[type=text] {
+border: none;
+height: 50px;
+width: 340px;
+padding: 0 0 0 20px;
+font-size: 16px;
+}
+input[type=submit] {
+background: #96E0CF;
+color: #5BAA97;
+border: none;
+height: 50px;
+width: 120px;
+padding: 0 0 0 0;
+font-size: 16px;
+}
+p {
+font-size: 40px;
+}
+h1 {
+font-size: 100px;
+margin: 0 0 0 0;
+}
+h2 {
+font-size: 60px;
+margin: 0 0 40 0;
+}
+a {
+text-decoration: none;
+font-size: 12px;
+}
+.sunny a {
+color: #EACD12;
+}
+.cloudy a {
+color: #817977;
+}
+.rainy a {
+color: #42516E;
+}
+.snowy a {
+color: #9FB4B5;
+}
